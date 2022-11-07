@@ -1,7 +1,7 @@
 :root {
   --primary-color: #283841;
   --secondary-color: #449999;
-  --tertiary-color: #380c3a;
+  --tertiary-color: #b62f6a;
 }
 * {
   box-sizing: border-box;  
@@ -76,7 +76,7 @@ section {
   width: 100%;
   display: flex;
 }
-.section-33 {
+.section-work {
   font-size: 48px;
   display: inline-block;
   border-right: 5px solid;
@@ -115,7 +115,7 @@ img {
   color: #ffffff;
   background-color: var(--tertiary-color);
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 600px) {
   header {
     padding-bottom: 0;
     justify-content: center;
@@ -142,7 +142,7 @@ img {
       justify-content: left;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   section {
     padding: 30px 15px;
     text-align: center;
